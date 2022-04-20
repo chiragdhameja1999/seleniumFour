@@ -28,7 +28,7 @@ public class seleniumFourRunner {
 
         System.out.println("No of list items : "+actuallist.size());
         System.out.println("Actual List : "+actuallist);
-        String s_assert="selenium";
+        //String s_assert="selenium";
         String s_assert_f="redmi";
 
         List<String> expected_list = actuallist.stream().filter(s -> s.contains(s_assert_f)).toList();
